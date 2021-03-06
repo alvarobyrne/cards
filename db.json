@@ -1,0 +1,56 @@
+{
+    "products": [
+        {
+            "name": "Conjunto",
+            "amount": 3,
+            "description": "unidades",
+            "price": 540,
+            "currency": "$",
+            "sub-products": [
+                {
+                    "amount": 5,
+                    "description": "cosa",
+                    "descriptions": "cosas",
+                    "name": "subname",
+                    "price": 100
+                },
+                {
+                    "amount": 5,
+                    "description": "vaina",
+                    "descriptions": "vainas",
+                    "price": 100
+                }
+            ],
+            "shipping":{
+                "price":"640-1120",
+                "delivery-time":"3-4 semanas"
+            }
+        },
+        {
+            "name": "Grupo",
+            "amount": 8,
+            "description": "unidades",
+            "price": 1640,
+            "currency": "$",
+            "sub-products": [
+                {
+                    "amount": 54,
+                    "description": "elemento",
+                    "descriptions": "elementos",
+                    "name": "subname",
+                    "price": 100
+                },
+                {
+                    "amount": 21,
+                    "description": "item",
+                    "descriptions": "items",
+                    "price": 5760
+                }
+            ],
+            "shipping":{
+                "price":"640-1120",
+                "delivery-time":"3-4 semanas"
+            }
+        }
+    ]
+}

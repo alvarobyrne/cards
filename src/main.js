@@ -1,1 +1,3 @@
-console.log("hola mundo!")
+const app = require('./App');
+console.log('app: ', app);
+app.init()
