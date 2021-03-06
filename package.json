@@ -1,0 +1,24 @@
+{
+  "name": "cards",
+  "version": "1.0.0",
+  "description": "cards test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvarobyrne/cards.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvarobyrne/cards/issues"
+  },
+  "homepage": "https://github.com/alvarobyrne/cards#readme",
+  "dependencies": {
+    "browserify-livereload": "^1.0.10",
+    "watchify": "^4.0.0"
+  }
+}
