@@ -19,9 +19,8 @@
     "url": "https://github.com/alvarobyrne/cards/issues"
   },
   "homepage": "https://github.com/alvarobyrne/cards#readme",
-  "dependencies": {
+  "devDependencies": {
     "browserify-livereload": "^1.0.10",
-    "express": "^4.17.1",
     "watchify": "^4.0.0"
   }
 }
