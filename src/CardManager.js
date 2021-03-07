@@ -1,7 +1,6 @@
 const Card = require('./Card');
 class CardManager{
     constructor(db,domElement){
-        console.log('db: cardmanager', db);
         this.db = db.products;
         this.domElement = domElement;
         this.innerHTML = ''

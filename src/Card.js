@@ -1,14 +1,11 @@
 class Card {
     constructor(data) {
-        console.log('data: ', data);
         const subProducts = data['sub-products'];
         const currency = data.currency;
         const shipping = data.shipping;
         const subProductsString = this.buildSubProducts(subProducts,currency);
-        console.log('subProductsString: ', subProductsString);
         const condition = data.price<1000;
         // debugger
-        console.log('condition: ', condition);
         const cardClassString = condition?"card":"card text-white bg-dark";
         const moreClassString = condition?"btn-light":"btn-dark";
         this.innerHTML = `
@@ -28,7 +25,6 @@ class Card {
 
     }
     buildSubProducts(data,currency) {
-        console.log('data: subproducts', data);
         let processedData = data.map((x)=>this.buildSubProduct(x,currency));
         let total = 0;
         let innerHTML = '';

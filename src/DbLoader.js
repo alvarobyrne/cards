@@ -6,12 +6,10 @@ class DbLoader extends Event {
     async init(path) {
         this.path = path;
         const db = await this.load();
-        console.log('db: ', db);
         this.emit('loaded', db)
     }
     async load() {
         const response = await (await fetch(this.path)).json();
-        console.log('response: ', response);
         return response
     }
 }
